@@ -7,31 +7,31 @@
     </head>
     <body>
         <header>
-            <div id="progress">
-            </div>
-            <div class="content">
+            <div class="nav-bar-container">
                 <div class="nav-bar">
-                    <img class="main-logo" src="images/logo-black.png" alt="logo">
+                    <a href="#header"><img class="main-logo" src="images/logo-black.png" alt="logo"></a>
                     <ul>
-                        <li><a>ABOUT</a></li>
-                        <li><a>BRANCHES</a></li>
-                        <li><a>APP</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#branches">BRANCHES</a></li>
+                        <li><a href="#app">APP</a></li>
                     </ul>
                 </div>
+            </div>
+            <div id="header" class="content">
                 <h1 class="hero">SHOES YOUR WAY</h1>
-                <div>
+                <div class="header-buttons">
                     <button>BRANCHES</button>
                     <button>OUR APP</button>
                 </div>
             </div>
         </header>
-            
-        <section class="content">
+        <div class="content-container">    
+        <section class="content" id="about">
             <h2>ABOUT US</h2>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis eleifend erat, a semper arcu varius id. Phasellus in eros justo. Suspendisse ultricies sem ut nisi mollis, eget interdum lacus ornare. Vestibulum sit amet justo malesuada, finibus ex ac, euismod ex. Proin feugiat rutrum eros, nec elementum purus scelerisque a. Fusce quam lorem, faucibus non aliquet nec, pulvinar auctor arcu. Vestibulum hendrerit vel metus nec tincidunt. Pellentesque tristique, nibh vel tempor viverra, nunc metus mattis eros, eu vulputate dui velit eget orci. Morbi pharetra mauris in neque varius, nec dignissim ante accumsan. Vestibulum mollis ullamcorper massa id tincidunt. Duis commodo erat a ante scelerisque porttitor in sit amet lorem.</p>
         </section>
 
-        <section class="content">
+        <section class="content" id="branches">
             <h2>BRANCHES</h2>
             <div class="branch-container">
                 <div class="branch-card">
@@ -62,7 +62,7 @@
         </section>
 
         <section>
-            <div class="feature-box">
+            <div class="feature-box" id="feature-box">
                 <p class="feature-desc">Technology text</p>
                 <img src="images/tech-1.jpg" alt="Shoesy tech">
             </div>
@@ -88,11 +88,11 @@
             </div>
         </section>
 
-        <section class="content app-container">
+        <section class="content app-container" id="app">
             <img class="app-view" alt="app" src="images/iphone-app.png">
             <img class="appstore-logo" alt="appstore-logo" src="images/app-store-logos.png">
         </section>
-
+        </div>
         <footer>
             <ul>
                 <li><a href="#">Contact us</a></li>
